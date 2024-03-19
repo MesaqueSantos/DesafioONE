@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Imagens/favicon.ico" type="image/x-icon">
+    <title>Criptofia de Texto</title>
+
+</head>
+<body>
+    <header>
+        <div>   
+        <img class="logoAlura" src="./Imagens/logo.png" alt="Logo alura">
+        <a class="inicio"> Bem vindo ao meu encriptador!</a>
+        <img class="gifcat" src="./Imagens/gatinho.gif" alt="Gif Gato Digitando">
+        </div>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto aqui!"></textarea>
+            <div class="informacao">
+            <h6 class="alerta">O texto deve conter apenas letras minusculas e sem acento!</h6>
+            </div>
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+        <section>
+            <div>
+            <textarea class="mensagem" cols="20" rows="7" placeholder="Seu resultado."></textarea>
+            <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <div>
+            <p class="autor">Feito por Mesaque Santos.</p>
+            <img class="github" src="Imagens/github.png" alt="Logo Linkedin">
+            <a class="botaosite" href="https://github.com/MesaqueSantos">Gifhub</a>
+            <img class="linkedin" src="Imagens/linkedin.png" alt="Logo linkedin">
+            <a class="botaosite" href="https://www.linkedin.com/in/mesaque-santos-199429265/">Linkedin</a>
+        </div>
+    </footer>
+    <script src="Script.js"></script>
+</body>
+</html>
